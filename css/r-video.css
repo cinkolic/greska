@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.navigation {
+    width: 100%;
+    margin: auto;
+    padding: 3px;
+    background: black;
+}
+
+ul#nav {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 2px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+
+ul#nav li a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Thasadith', sans-serif;
+}
+
+ul#nav li a:hover {
+    color: rgb(255, 72, 0);
+}
+
+.navigation1 {
+    width: 100%;
+    margin: auto;
+    padding: px;
+    background: rgb(46, 46, 46);
+}
+
+ul#nav1 {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 2px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+
+ul#nav1 li a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Thasadith', sans-serif;
+}
+
+ul#nav1 li a:hover {
+    color: rgb(255, 72, 0);
+}
+
+.text {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text p {
+    font-family: 'Oregano', cursive;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+}
+
+.video {
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Thasadith', sans-serif;
+    text-transform: uppercase;
+}
+
+hr {
+    text-align: center;
+    margin: 0 auto;
+    width: 5%;
+}
+
+footer .cont {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding-left: 120px;
+    padding-bottom: 10px;
+
+}
+
+footer .cont .fa {
+    float: right;
+    padding-right: 90px;
+    color: gray;
+}
