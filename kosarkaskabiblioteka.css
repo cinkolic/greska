@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('C:/Users/38161/Desktop/case study - WD/slike/pocetna-cover.jpeg');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navigation {
+    width: 100%;
+    margin: auto;
+    padding: 0px;
+    background: black;
+}
+
+ul#nav {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 2px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+ul#nav li a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Thasadith', sans-serif;
+}
+
+ul#nav li a:hover {
+    color: rgb(255, 72, 0);
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title h1 {
+    font-size: 100px;
+    color: white;
+    font-family: 'Oregano', sans-serif;
+}
+
+.text {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text p {
+    font-family: 'Oregano', cursive;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+}
+
+.title1 {
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Thasadith', sans-serif;
+    text-transform: uppercase;
+}
+
+hr {
+    text-align: center;
+    margin: 0 auto;
+    width: 5%;
+}
+
+.container .row {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.container .row h3 {
+    font-family: 'Thasadith', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.container .row p {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Thasadith', sans-serif;
+}
+
+footer .cont {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding-left: 120px;
+    padding-bottom: 10px;
+
+}
+
+footer .cont .fa {
+    float: right;
+    padding-right: 90px;
+    color: gray;
+}
